@@ -32,7 +32,7 @@ function morph(A, B) {
 }
 // Scroll Trigger
 ScrollTrigger.create({
-  trigger: ".MorphBZSection1",
+  trigger: ".morphbzsection1",
   start: "top 50%",
   end: "bottom 50%",
   markers: false,
@@ -46,7 +46,7 @@ ScrollTrigger.create({
   },
 });
 ScrollTrigger.create({
-  trigger: ".MorphBZSection2",
+  trigger: ".morphbzsection2",
   start: "top 50%",
   end: "bottom 50%",
   markers: false,
@@ -60,7 +60,7 @@ ScrollTrigger.create({
   },
 });
 ScrollTrigger.create({
-  trigger: ".MorphBZSection3",
+  trigger: ".morphbzsection3",
   start: "top 50%",
   end: "bottom 50%",
   markers: false,
@@ -74,7 +74,7 @@ ScrollTrigger.create({
   },
 });
 ScrollTrigger.create({
-  trigger: ".MorphBZSection4",
+  trigger: ".morphbzsection4",
   start: "top 50%",
   end: "bottom 50%",
   markers: false,
@@ -88,7 +88,7 @@ ScrollTrigger.create({
   },
 });
 ScrollTrigger.create({
-  trigger: ".MorphBZSection5",
+  trigger: ".morphbzsection5",
   start: "top 50%",
   end: "bottom 50%",
   markers: false,
@@ -102,7 +102,7 @@ ScrollTrigger.create({
   },
 });
 ScrollTrigger.create({
-  trigger: ".MorphBZSection6",
+  trigger: ".morphbzsection6",
   start: "top 50%",
   end: "bottom 50%",
   markers: false,
@@ -116,7 +116,7 @@ ScrollTrigger.create({
   },
 });
 ScrollTrigger.create({
-  trigger: ".MorphBZSection7",
+  trigger: ".morphbzsection7",
   start: "top 50%",
   end: "bottom 50%",
   markers: false,
@@ -130,7 +130,7 @@ ScrollTrigger.create({
   },
 });
 ScrollTrigger.create({
-  trigger: ".MorphBZSection8",
+  trigger: ".morphbzsection8",
   start: "top 50%",
   end: "bottom 50%",
   markers: false,
