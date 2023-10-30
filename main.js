@@ -1,6 +1,6 @@
-import { gsap } from "gsap-trial";
-import { MorphSVGPlugin } from "gsap-trial/MorphSVGPlugin";
-import { ScrollTrigger } from "gsap-trial/ScrollTrigger";
+import { gsap } from "gsap";
+import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(MorphSVGPlugin,ScrollTrigger);
 // console.log("GSAP:", gsap);
 let stage = 0
@@ -32,7 +32,7 @@ function morph(A, B) {
 }
 // Scroll Trigger
 ScrollTrigger.create({
-  trigger: ".section1",
+  trigger: ".MorphBZSection1",
   start: "top 50%",
   end: "bottom 50%",
   markers: false,
@@ -46,7 +46,7 @@ ScrollTrigger.create({
   },
 });
 ScrollTrigger.create({
-  trigger: ".section2",
+  trigger: ".MorphBZSection2",
   start: "top 50%",
   end: "bottom 50%",
   markers: false,
@@ -60,7 +60,7 @@ ScrollTrigger.create({
   },
 });
 ScrollTrigger.create({
-  trigger: ".section3",
+  trigger: ".MorphBZSection3",
   start: "top 50%",
   end: "bottom 50%",
   markers: false,
@@ -74,7 +74,7 @@ ScrollTrigger.create({
   },
 });
 ScrollTrigger.create({
-  trigger: ".section4",
+  trigger: ".MorphBZSection4",
   start: "top 50%",
   end: "bottom 50%",
   markers: false,
@@ -87,10 +87,8 @@ ScrollTrigger.create({
     }
   },
 });
-
-
 ScrollTrigger.create({
-  trigger: ".section5",
+  trigger: ".MorphBZSection5",
   start: "top 50%",
   end: "bottom 50%",
   markers: false,
@@ -103,9 +101,8 @@ ScrollTrigger.create({
     }
   },
 });
-
 ScrollTrigger.create({
-  trigger: ".section6",
+  trigger: ".MorphBZSection6",
   start: "top 50%",
   end: "bottom 50%",
   markers: false,
@@ -118,9 +115,8 @@ ScrollTrigger.create({
     }
   },
 });
-
 ScrollTrigger.create({
-  trigger: ".section7",
+  trigger: ".MorphBZSection7",
   start: "top 50%",
   end: "bottom 50%",
   markers: false,
@@ -134,7 +130,7 @@ ScrollTrigger.create({
   },
 });
 ScrollTrigger.create({
-  trigger: ".section8",
+  trigger: ".MorphBZSection8",
   start: "top 50%",
   end: "bottom 50%",
   markers: false,
