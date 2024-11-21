@@ -1,64 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
     <style>
-      .hide{
+      .hide {
         visibility: hidden;
       }
-      .hideSVG{
+      .hideSVG {
         position: absolute;
         top: 0px;
       }
-      body{
-        background-color: #00EB57;
+      body {
+        background-color: #00eb57;
       }
       .morphingSVGContainer {
-          height: 800vh;
-          position: relative;
+        height: 800vh;
+        position: relative;
       }
       .morphingSVG {
-          position: sticky;
-          top: 0px;
+        position: sticky;
+        top: 0px;
       }
-      .main{
+      .main {
         display: flex;
-    justify-content: space-between;
+        justify-content: space-between;
       }
-      .MorphBZSection{
+      .MorphBZSection {
         height: 100vh;
       }
+      .overflowx-hidden{
+        overflow-x: hidden;
+      }
     </style>
-    <script type="module" crossorigin src="https://cdn.jsdelivr.net/gh/mgohar/MorphingTariqElectric@0.0.3/dist/assets/index-9f177a19.js"></script>
+    <script type="module" crossorigin src="/assets/index-9a28f3a9.js"></script>
   </head>
-  <body>  
-    <div class="main">
-      <div>
-        <div class="MorphBZSection morphbzsection1"><h1>Section1</h1></div>
-        <div class="MorphBZSection morphbzsection2"><h1>Section2</h1></div>
-        <div class="MorphBZSection morphbzsection3"><h1>Section3</h1></div>
-        <div class="MorphBZSection morphbzsection4"><h1>Section4</h1></div>
-        <div class="MorphBZSection morphbzsection5"><h1>Section5</h1></div>
-        <div class="MorphBZSection morphbzsection6"><h1>Section6</h1></div>
-        <div class="MorphBZSection morphbzsection7"><h1>Section7</h1></div>
-        <div class="MorphBZSection morphbzsection8"><h1>Section8</h1></div>
+  <body class="overflowx-hidden">
+      <div class="main">
+        <div>
+          <div class="MorphBZSection morphbzsection1"><h1>Section1</h1></div>
+          <div class="MorphBZSection morphbzsection2"><h1>Section2</h1></div>
+          <div class="MorphBZSection morphbzsection3"><h1>Section3</h1></div>
+          <div class="MorphBZSection morphbzsection4"><h1>Section4</h1></div>
         </div>
         <div class="sectionContainer">
-        <div class="morphingSVGContainer">
-          <div class="morphingSVG">
-            <div class="svgs"></div>
+          <div class="morphingSVGContainer">
+            <div class="morphingSVG">
+              <div class="svgs"></div>
+            </div>
           </div>
         </div>
       </div>
-      
-    </div>
-   
-     
-    <script src="https://cdn.jsdelivr.net/gh/mgohar/MorphingTariqElectric@0.0.3/svgs.js"></script>
+
+    <script src="https://aams.b-cdn.net/morphing/svgs.js"></script>
     
   </body>
 </html>
-
-

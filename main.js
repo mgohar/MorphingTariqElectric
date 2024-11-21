@@ -12,8 +12,8 @@ function morph(A, B) {
 
   svgPaths.forEach((svgPath, i) => {
     let svgA1 = svgPathA[i];
-    svgMain.setAttribute("viewBox", "0 0 755 703");
-    if (svgA1.getAttribute('d') == "") {
+    svgMain?.setAttribute("viewBox", "0 0 560 503");
+    if (svgA1?.getAttribute('d') == "") {
       gsap.to(svgPath, {
         opacity: 0,
         duration: 0.8,
@@ -83,63 +83,7 @@ ScrollTrigger.create({
     if (isActive) {
       morph(".svgPath", ".svgPathC");
     } else {
-      morph(".svgPath", ".svgPathB");
-    }
-  },
-});
-ScrollTrigger.create({
-  trigger: ".morphbzsection5",
-  start: "top 50%",
-  end: "bottom 50%",
-  markers: false,
-  onToggle: ({ isActive }) => {
-    console.log("Active:", isActive);
-    if (isActive) {
-      morph(".svgPath", ".svgPathD");
-    } else {
-      morph(".svgPath", ".svgPathC");
-    }
-  },
-});
-ScrollTrigger.create({
-  trigger: ".morphbzsection6",
-  start: "top 50%",
-  end: "bottom 50%",
-  markers: false,
-  onToggle: ({ isActive }) => {
-    console.log("Active:", isActive);
-    if (isActive) {
-      morph(".svgPath", ".svgPathE");
-    } else {
-      morph(".svgPath", ".svgPathD");
-    }
-  },
-});
-ScrollTrigger.create({
-  trigger: ".morphbzsection7",
-  start: "top 50%",
-  end: "bottom 50%",
-  markers: false,
-  onToggle: ({ isActive }) => {
-    console.log("Active:", isActive);
-    if (isActive) {
-      morph(".svgPath", ".svgPathF");
-    } else {
-      morph(".svgPath", ".svgPathE");
-    }
-  },
-});
-ScrollTrigger.create({
-  trigger: ".morphbzsection8",
-  start: "top 50%",
-  end: "bottom 50%",
-  markers: false,
-  onToggle: ({ isActive }) => {
-    console.log("Active:", isActive);
-    if (isActive) {
-      morph(".svgPath", ".svgPathG");
-    } else {
-      morph(".svgPath", ".svgPathF");
+      // morph(".svgPath", ".svgPathC");
     }
   },
 });
